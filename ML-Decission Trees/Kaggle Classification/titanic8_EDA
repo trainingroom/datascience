@@ -1,6 +1,3 @@
-#Refer to 14.feature creation-->feature-creation - FE, EDA
-#These 2 are hand in hand programs
-
 import pandas as pd
 import os
 from sklearn import preprocessing
@@ -85,8 +82,6 @@ X_train = titanic2[0:titanic_train.shape[0]] #0 t0 891 records
 X_train.shape
 X_train.info()
 y_train = titanic_train['Survived']
-
-#Try applying the PCA
 
 #Let's build the model
 #If we don't use random_state parameter, system can pick different values each time and we may get slight difference in accuracy each time you run.
